@@ -1,8 +1,8 @@
 ## Hosts
-192.168.1.1
-- Wifi-Ethernet bridge
-- Windows 8.1
-- Lenovo thinkpad x201
+~~192.168.1.1~~
+- ~~Wifi-Ethernet bridge~~
+- ~~Windows 8.1~~
+- ~~Lenovo thinkpad x201~~
 
 192.168.1.2
 - Proxmox node
@@ -23,3 +23,7 @@
 192.168.1.11
 - Windows 11
 - JellyFin Server
+
+192.168.1.12
+- Debian 13
+- Filesharing between windows and linux

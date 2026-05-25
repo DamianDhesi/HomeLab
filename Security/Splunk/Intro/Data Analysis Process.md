@@ -1,0 +1,5 @@
+- splunk index processes data and stores it
+- can query index for data using splunk search processing language (SPL)
+- can create dashboard panels using search results
+- data models allows for easy data visualization
+- alerts are triggered when certain events occur based on collected data

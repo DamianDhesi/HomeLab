@@ -1,0 +1,3 @@
+During/After install of universal forwarder, you will need to provide the Splunk instance host ip and port to set the Splunk instance as a deployment server and receiving index
+- once this is done (assuming the relevant ports are open on the Splunk instance under settings->forwarding and receiving) the forwarder will show up in settings->agent management
+- Then the forwarder can be configured to send data via Splunk recommended -> add data

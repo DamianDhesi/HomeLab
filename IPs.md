@@ -29,8 +29,14 @@
 
 192.168.1.12
 - Debian 13.4
-- Filesharing between windows and linux
+- Testout filesharing (SMB, etc.)
 
 192.168.1.13
 - Debian 13.4
 - Splunk Enterprise with 10GB dev license
+
+192.168.1.14
+- Kali Rolling (2026.2)
+- Pentesting VM
+
+## Planned

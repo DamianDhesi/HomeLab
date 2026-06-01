@@ -40,3 +40,14 @@
 - Pentesting VM
 
 ## Planned
+- Recursive dns ([technitium](https://technitium.com/dns/))
+	- maybe also set up dhcp through technitium
+		- dhcp failover?
+- Reverse proxy with [nginx](https://nginx.org/)
+- VPN server using [wireguard](https://www.wireguard.com/)
+	- would have to forward port
+	- would be good to limit open ports/connections (using iptables and such)
+		- outbound to proxy
+		- outbound to dns server (for proxy to do anything)
+		- inbound from management pc
+		- outbound to internet

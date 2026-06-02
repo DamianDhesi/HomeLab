@@ -33,11 +33,15 @@
 
 192.168.1.13
 - Debian 13.4
-- Splunk Enterprise with 10GB dev license
+- Splunk Enterprise Security with 10GB dev license
 
 192.168.1.14
 - Kali Rolling (2026.2)
 - Pentesting VM
+
+192.168.1.15
+- Debian 13 generic cloud
+- Technitium DNS server
 
 ## Planned
 - Recursive dns ([technitium](https://technitium.com/dns/))

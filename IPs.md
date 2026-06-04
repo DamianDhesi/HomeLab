@@ -1,3 +1,5 @@
+
+ips reserved for homelab: .1 - .30
 ## Hosts
 192.168.1.1
 - Proxmox Backup Server
@@ -41,12 +43,14 @@
 
 192.168.1.15
 - Debian 13 generic cloud
-- Technitium DNS server
+- Technitium DNS/DHCP server (Main)
+
+192.168.1.16
+- Debian 13 generic cloud
+- Technitium DNS/DHCP server (Secondary)
 
 ## Planned
-- Recursive dns ([technitium](https://technitium.com/dns/))
-	- maybe also set up dhcp through technitium
-		- dhcp failover?
+- Set up internal domain so domain names can be assigned to hosts
 - Reverse proxy with [nginx](https://nginx.org/)
 - VPN server using [wireguard](https://www.wireguard.com/)
 	- would have to forward port

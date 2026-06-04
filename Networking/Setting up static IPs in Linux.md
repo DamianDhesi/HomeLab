@@ -1,4 +1,4 @@
-Debian based distros used /etc/network/interfaces for handling interfaces 
+ip Older distros use /etc/network/interfaces for handling interfaces 
 - In order to set up static ip, need to 
 	- bring up the desired NIC (network interface card)
 	- set it to take a static ip
@@ -42,3 +42,33 @@ and confirm with
 ```
 ip link show
 ```
+
+## Static IP with netplan
+some distros may have netplan instead and thus not have /etc/network/interfaces 
+
+netplan config files are in /etc/netplan as .yaml
+
+can set a static ip using format from this example on [netplan docs](https://netplan.readthedocs.io/en/stable/using-static-ip-addresses/)
+```
+network:
+  version: 2
+  ethernets:
+    enp6s0:
+      dhcp4: false
+      dhcp6: false
+      accept-ra: false
+      link-local: []
+      addresses:
+        - 172.16.0.1/24
+      routes:
+        - to: default
+          via: 172.16.0.254
+      nameservers:
+        search:
+          - netplanlab.local
+        addresses:
+          - 172.16.0.254
+          - 172.16.0.253
+```
+- use "netplan get" to get configuration
+- "netplan apply" to apply new netplan configuration

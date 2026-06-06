@@ -1,4 +1,3 @@
-
 ips reserved for homelab: .1 - .30
 ## Hosts
 192.168.1.1
@@ -49,7 +48,16 @@ ips reserved for homelab: .1 - .30
 - Debian 13 generic cloud
 - Technitium DNS/DHCP server (Secondary)
 
+192.168.1.17
+- Debian 13 generic cloud
+- Step-CA Certificate Authority 
+
 ## Planned
+- set up internal cert authority with step ca?
+	- tls cert for communication with servers
+	- ssh cert make administration with ansible more secure
+		- can have a short lived ssh cert compared to "infinite life" of ssh private key
+- Look into setting up [Ansible](https://docs.ansible.com/) for easier update management
 - Set up internal domain so domain names can be assigned to hosts
 - Reverse proxy with [nginx](https://nginx.org/)
 - VPN server using [wireguard](https://www.wireguard.com/)
@@ -59,3 +67,4 @@ ips reserved for homelab: .1 - .30
 		- outbound to dns server (for proxy to do anything)
 		- inbound from management pc
 		- outbound to internet
+- self hosted Single Sign On (SSO) with [Authentik](https://goauthentik.io/)?

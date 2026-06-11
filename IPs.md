@@ -52,12 +52,13 @@ ips reserved for homelab: .1 - .30
 - Debian 13 generic cloud
 - Step-CA Certificate Authority 
 
+192.168.1.18
+- Debian 13 generic cloud
+- Caddy Reverse Proxy
+
 ## Planned
-- set up internal cert authority with step ca?
-	- tls cert for communication with servers
-	- ssh cert make administration with ansible more secure
-		- can have a short lived ssh cert compared to "infinite life" of ssh private key
 - Look into setting up [Ansible](https://docs.ansible.com/) for easier update management
+	- ssh cert make administration with ansible more secure
 - Set up internal domain so domain names can be assigned to hosts
 - Reverse proxy with [nginx](https://nginx.org/)
 - VPN server using [wireguard](https://www.wireguard.com/)

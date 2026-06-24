@@ -24,4 +24,4 @@ will need to run
 ```
 caddy reload --config /etc/caddy/Caddyfile --force
 ```
-to force caddy to use newly renewed certs
+to force caddy to use newly renewed certsnano

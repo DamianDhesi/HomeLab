@@ -19,7 +19,7 @@ to use the default HTTP-01 authen with acme server
 can use [step certificate p12](https://smallstep.com/docs/step-cli/reference/certificate/p12/)
 - need intermediate and root certs for the p12 cert to have the correct expiration date, issuer, and such
 
-## [Cert Renewal](https://smallstep.com/docs/step-ca/renewal/#the-standalone-step-renewal-daemon)
+## [Cert Renewal](https://smallstep.com/docs/step-ca/renewal/#renewal-using-systemd-timers)
 will need to run
 ```
 caddy reload --config /etc/caddy/Caddyfile --force

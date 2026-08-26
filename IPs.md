@@ -55,6 +55,14 @@ ips reserved for homelab: .1 - .30
 192.168.1.18
 - Debian 13 generic cloud
 - Caddy Reverse Proxy
+	- proxmox.dslab.internal
+	- jellyfin.dslab.internal
+	- dns-proxy.dslab.internal
+	- uptime.dslab.internal
+
+192.168.1.19
+- Debian 13 generic cloud
+- Uptime Kuma (port 3001)
 
 ## Planned
 - Look into setting up [Ansible](https://docs.ansible.com/) for easier update management

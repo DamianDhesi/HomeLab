@@ -1,4 +1,4 @@
-root cert is at /roots.pem
+caroot cert is at /roots.pem
 intermediate cert is at /intermediates.pem
 
 need to make sure dns configuration for CA includes server ip (ex: 10.0.0.2) or else it will not be possible to generate certificates on another host (TLS will fail)

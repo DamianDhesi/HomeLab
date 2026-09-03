@@ -1,4 +1,4 @@
-ips reserved for homelab: .1 - .30
+**ips reserved for homelab: .1 - .30**
 ## Hosts
 192.168.1.1
 - Proxmox Backup Server
@@ -26,7 +26,7 @@ ips reserved for homelab: .1 - .30
 ## VMs
 192.168.1.11
 - Windows 11
-- JellyFin Server
+-[ JellyFin Server](https://jellyfin.org/)
 
 192.168.1.12
 - Debian 13.4
@@ -34,7 +34,7 @@ ips reserved for homelab: .1 - .30
 
 192.168.1.13
 - Debian 13.4
-- Splunk Enterprise Security with 10GB dev license
+- [Splunk Enterprise Security](https://www.splunk.com/en_us/products/enterprise-security.html) with 10GB dev license
 
 192.168.1.14
 - Kali Rolling (2026.2)
@@ -42,27 +42,36 @@ ips reserved for homelab: .1 - .30
 
 192.168.1.15
 - Debian 13 generic cloud
-- Technitium DNS/DHCP server (Main)
+- [Technitium DNS/DHCP server](https://technitium.com/dns/) (Main)
 
 192.168.1.16
 - Debian 13 generic cloud
-- Technitium DNS/DHCP server (Secondary)
+- [Technitium DNS/DHCP server](https://technitium.com/dns/) (Secondary)
 
 192.168.1.17
 - Debian 13 generic cloud
-- Step-CA Certificate Authority 
+- [Step-CA Certificate Authority](https://smallstep.com/docs/step-ca/)
 
 192.168.1.18
 - Debian 13 generic cloud
-- Caddy Reverse Proxy
+- [Caddy Reverse Proxy](https://caddyserver.com/)
 	- proxmox.dslab.internal
 	- jellyfin.dslab.internal
 	- dns-proxy.dslab.internal
 	- uptime.dslab.internal
+	- haos.dslab.internal
 
 192.168.1.19
 - Debian 13 generic cloud
-- Uptime Kuma (port 3001)
+- [Uptime Kuma](https://uptimekuma.co/)
+
+192.168.1.20
+- Home Assistant Operating System
+- [Home Assistant](https://www.home-assistant.io/)
+
+192.168.1.21
+- Debian 13 generic cloud
+- [GoPhish](https://getgophish.com/)
 
 ## Planned
 - Look into setting up [Ansible](https://docs.ansible.com/) for easier update management

@@ -60,6 +60,7 @@
 	- dns-proxy.dslab.internal
 	- uptime.dslab.internal
 	- haos.dslab.internal
+	- invidious.dslab.internal
 
 192.168.1.19
 - Debian 13 generic cloud
@@ -72,6 +73,10 @@
 192.168.1.21
 - Debian 13 generic cloud
 - [GoPhish](https://getgophish.com/)
+
+192.168.1.22
+- Debian 13 generic cloud
+- [Invidious](https://invidious.io/)
 
 ## Planned
 - Look into setting up [Ansible](https://docs.ansible.com/) for easier update management

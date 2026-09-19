@@ -67,12 +67,12 @@
 - [Uptime Kuma](https://uptimekuma.co/)
 
 192.168.1.20
-- Home Assistant Operating System
-- [Home Assistant](https://www.home-assistant.io/)
+- ~~Home Assistant Operating System~~
+- ~~[Home Assistant](https://www.home-assistant.io/)~~
 
 192.168.1.21
-- Debian 13 generic cloud
-- [GoPhish](https://getgophish.com/)
+- ~~Debian 13 generic cloud~~
+- ~~[GoPhish](https://getgophish.com/)~~
 
 192.168.1.22
 - Debian 13 generic cloud

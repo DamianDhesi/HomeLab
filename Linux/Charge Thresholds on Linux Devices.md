@@ -8,5 +8,5 @@ when editing BAT0 files, it is important to set up a cron job to set the thresho
 ex crontab:
 ```
 @reboot echo 50 | sudo tee /sys/class/power_supply/BAT0/charge_control_start_threshold
-/sys/class/power_supply/BAT0/charge_control_end_threshold
+@reboot echo 50 | sudo tee /sys/class/power_supply/BAT0/charge_control_end_threshold
 ```

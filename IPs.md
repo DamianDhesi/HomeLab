@@ -26,11 +26,11 @@
 ## VMs
 192.168.1.11
 - Windows 11
--[ JellyFin Server](https://jellyfin.org/)
+- [JellyFin Server](https://jellyfin.org/)
 
 192.168.1.12
 - Debian 13.4
-- Testout filesharing (SMB, etc.)
+- Stack
 
 192.168.1.13
 - Debian 13.4
@@ -67,8 +67,8 @@
 - [Uptime Kuma](https://uptimekuma.co/)
 
 192.168.1.20
-- ~~Home Assistant Operating System~~
-- ~~[Home Assistant](https://www.home-assistant.io/)~~
+- Debian 13 generic cloud
+- [PriceBuddy](https://pricebuddy.jez.me/) docker
 
 192.168.1.21
 - ~~Debian 13 generic cloud~~

@@ -1,4 +1,4 @@
-as a user with sudo permissions can use the su command to switch users
+a user with sudo permissions can use the su command to switch users
 
 create a new shell and login as root
 ```
@@ -19,3 +19,10 @@ could cause PATH/permission related issues though as that information will be ca
 [further options](https://www.geeksforgeeks.org/linux-unix/switch-users-on-linux-with-the-su-command/)
 - run command as a user
 - etc.
+
+## Using Systemctl with su
+need to set dbus env vars so sudo su - works with systemctl --user
+```
+export XDG_RUNTIME_DIR="/run/user/$(id -u)"
+export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
+```

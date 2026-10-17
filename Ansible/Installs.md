@@ -5,7 +5,7 @@ default update Linux VM script on (9am start)
 - Uptime Kuma (manually update Kuma itself)
 
 pve host script on (9:20am start)
-- all pve host
+- all pve hosts
 - pbs host
 
 DNS script for auto [updating Technitium](https://blog.technitium.com/2017/11/running-dns-server-on-ubuntu-linux.html) (9:40am start)

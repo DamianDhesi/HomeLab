@@ -78,16 +78,10 @@
 - Debian 13 generic cloud
 - [Invidious](https://invidious.io/)
 
-## Planned
-- Look into setting up [Ansible](https://docs.ansible.com/) for easier update management
-	- ssh cert make administration with ansible more secure
-- Set up internal domain so domain names can be assigned to hosts
-- Reverse proxy with [nginx](https://nginx.org/)
-- VPN server using [wireguard](https://www.wireguard.com/)
-	- would have to forward port
-	- would be good to limit open ports/connections (using iptables and such)
-		- outbound to proxy
-		- outbound to dns server (for proxy to do anything)
-		- inbound from management pc
-		- outbound to internet
-- self hosted Single Sign On (SSO) with [Authentik](https://goauthentik.io/)?
+192.168.1.23
+- Debian 13 generic cloud
+- [K3s Server](https://docs.k3s.io/)
+
+192.168.1.24
+- Debian 13 generic cloud
+- [K3s worker](https://docs.k3s.io/)

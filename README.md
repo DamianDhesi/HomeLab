@@ -1,6 +1,5 @@
-## Notes and learnings concerning my homelab setup
+## Notes and learnings concerning my HomeLab
 
-Primarily concerning anything I want to note down about
-- Networking (layers of the [OSI Model](https://en.wikipedia.org/wiki/OSI_model))
-- Security (Logging, SIEM, backups, etc.)
-- and other notes and such
+General notes and such are included here
+- Ansible configs can be found at [my playbook github repo](https://github.com/DamianDhesi/ansible_config)
+- Kubernetes manifests can be found at [my manifest repo](https://github.com/DamianDhesi/kub_config)

@@ -30,10 +30,6 @@ The base r8169 ethernet driver that comes with linux may or may not be stable wi
 
 Steps
 1. add the non-free repositories to /etc/apt/sources.list
-```
-deb http://ftp.debian.org/debian bookworm main contrib  
-deb http://ftp.debian.org/debian bookworm-updates main contrib
-```
 2. install the r8168-dkms package (installing pve-headers may help if using proxmox)
 ```
 apt update

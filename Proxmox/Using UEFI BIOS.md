@@ -1,0 +1,1 @@
+important to disable pre-signed keys or else it will not be possible to boot since access will be denied

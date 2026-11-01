@@ -79,9 +79,9 @@
 - [Invidious](https://invidious.io/)
 
 192.168.1.23
-- Debian 13 generic cloud
-- [K3s Server](https://docs.k3s.io/)
+- Talos amd64
+- [K8s control plane](https://www.siderolabs.com/talos-linux)
 
 192.168.1.24
-- Debian 13 generic cloud
-- [K3s worker](https://docs.k3s.io/)
+- Talos amd64
+- [K8s worker](https://www.siderolabs.com/talos-linux)

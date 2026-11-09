@@ -29,11 +29,11 @@
 - [JellyFin Server](https://jellyfin.org/)
 
 192.168.1.12
-- Debian 13.4
+- Debian 13
 - Stack
 
 192.168.1.13
-- Debian 13.4
+- Debian 13
 - [Splunk Enterprise Security](https://www.splunk.com/en_us/products/enterprise-security.html) with 10GB dev license
 
 192.168.1.14
@@ -53,14 +53,9 @@
 - [Step-CA Certificate Authority](https://smallstep.com/docs/step-ca/)
 
 192.168.1.18
-- Debian 13 generic cloud
-- [Caddy Reverse Proxy](https://caddyserver.com/)
-	- proxmox.dslab.internal
-	- jellyfin.dslab.internal
-	- dns-proxy.dslab.internal
-	- uptime.dslab.internal
-	- haos.dslab.internal
-	- invidious.dslab.internal
+- RHEL 10 x86_64
+- [Caddy build (using xcaddy)](https://caddy.community/t/how-to-use-dns-provider-modules-in-caddy-2/8148) with [cloudflare dns module](https://github.com/caddy-dns/cloudflare)
+	- Wildcard cert for \*.internal.ddhesi.com with automated renewals through DNS-01 challenge
 
 192.168.1.19
 - Debian 13 generic cloud
@@ -83,5 +78,5 @@
 - [K8s control plane](https://www.siderolabs.com/talos-linux)
 
 192.168.1.24
-- Talos amd64
-- [K8s worker](https://www.siderolabs.com/talos-linux)
+- ~~Talos amd64~~
+- ~~[K8s worker](https://www.siderolabs.com/talos-linux)~~

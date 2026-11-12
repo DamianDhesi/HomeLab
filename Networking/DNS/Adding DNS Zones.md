@@ -1,0 +1,1 @@
+Can freely add DNS zones to the technitium primary server as a primary zone. Best to tie it to a catalog zone so that the configurations are carried over to any secondary DNS servers if using a DNS cluster

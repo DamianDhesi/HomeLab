@@ -3,7 +3,7 @@
 General notes and such are included here
 - Ansible configs can be found at [my playbook github repo](https://github.com/DamianDhesi/ansible_config)
 - Kubernetes manifests can be found at [my manifest repo](https://github.com/DamianDhesi/kub_config)
-
+- Caddyfile configuration at [my Caddyfile repo](https://github.com/DamianDhesi/caddy_config)
 ## Achievements
 - Troubleshooting
 	- Diagnosed and resolved a Linux ethernet error using the command line, identifying a conflict between the ethernet driver and controller, to restore internet connection to the affected host
@@ -15,3 +15,4 @@ General notes and such are included here
 - Networking
 	- Deployed Technitium servers providing DNS and DHCP with redundancy to maximize uptime of core network services
 	- Set up a Caddy reverse proxy with a Step-CA internal certificate authority using 24-hour TLS certificates with automated renewal to facilitate short lived certifications and TLS offloading
+	- Set up automatic renewal of wildcard certificates using Caddy and Cloudflare for improved ease of deploying services as sub-domains

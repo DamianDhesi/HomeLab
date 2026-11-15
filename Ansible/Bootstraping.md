@@ -10,7 +10,3 @@ for bootstrapping on PVE hosts use
 ansible-pull -U https://github.com/DamianDhesi/ansible_config.git -C main bootstrap-host.yml
 ```
 
-for bootstrapping on VM with docker use
-```
-ansible-pull -U https://github.com/DamianDhesi/ansible_config.git -C main bootstrap-docker.yml
-```

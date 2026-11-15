@@ -78,5 +78,5 @@
 - [K8s control plane](https://www.siderolabs.com/talos-linux)
 
 192.168.1.24
-- ~~Talos amd64~~
-- ~~[K8s worker](https://www.siderolabs.com/talos-linux)~~
+- Debian 13 generic cloud
+- Talos control server
